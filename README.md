@@ -17,7 +17,7 @@ The diagram below illustrates the data pipeline implemented in this project:
 #### Data Version Control with DVC
 
 - **Versioning:** DVC tracks datasets, models, and pipeline stages, ensuring reproducibility across different environments.
-- **Pipeline Management:** The pipeline is organized into stages—preprocessing, training, and evaluation—that are automatically re-executed upon any changes in dependencies (e.g., data, scripts, or parameters).
+- **Pipeline Management:** The pipeline is organized into stages preprocessing, training, and evaluation that are automatically re-executed upon any changes in dependencies.
 - **Remote Storage:** DVC integrates with remote storage solutions, such as DagsHub, for managing large datasets and models.
 
 #### Experiment Tracking with MLflow
